@@ -26,7 +26,8 @@ function iLoveTheBeatles(number){
   do{
     i = i + 1;
     text = text + i;
+    empty.push(text);
   }
-  while(number<15);
-  return text;
+  while(i<15);
+  return empty;
 }
